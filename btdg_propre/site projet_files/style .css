@@ -1,0 +1,206 @@
+/*GENERAL*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+    font-size: 15px;
+        
+}
+h1
+{
+    font-family: cursiveS;
+    font-weight: 45px;
+    color: crimson;
+}
+h2
+{
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: left;
+    margin: 8%;
+}
+h3
+{
+    font-size: 24px;
+    color: currentColor;
+    
+}
+
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: darkblue;
+}
+.wrapper
+{
+    width:950s;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+.cyan
+{
+    color: aqua;
+}
+
+/*HEADER*/
+header
+{
+    height: 120px;
+}
+header h1
+{
+    float: left;
+    margin-top: 12px;
+    position: absolute;
+    font-family: fantasy;
+    font-size: 4em;
+        
+}
+header nav
+{
+    float:right;
+    list-style-position: outside;
+    margin-top: 25px;
+}
+header nav ul li
+{
+    display: inline-block;
+    float: left;
+    position: relative;
+    font-family: serif;
+    text-decoration: none;
+    margin-right: 20px;
+}
+header
+{
+    text-transform: uppercase;
+    font font-weight: bold;
+    margin-right: 20px;
+}
+/*MAIN-image*/
+#main-image
+{
+   background: url(profile_picture-perfect_january-2018_banner.jpg) no-repeat; 
+    background-size: cover;
+}
+.button-1
+{
+    height: 50px;
+    width: 100px;
+    display: block;
+    background: cyan;
+    font-size: 21px;
+    margin: 0 auto;
+    line-height: 3em;
+    font-family: fantasy;
+    text-align: center;
+    border-radius: 3px;
+    
+}
+/*possibilities*/
+#possibilities
+{
+    width: 460px;
+    background-color: skyblue;
+        
+}
+#possibilities article
+{
+    float: left;
+    border-radius: 10px;
+    height: 270;  
+    padding: 60px;
+    width: 460px; 
+    
+}
+#possibilitie arcticle:first-child
+{
+    margin-right: 20px;
+}
+.overly
+{
+    background: rgba(cyan);
+    height: 100%;
+    width: 150px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;   
+}
+article h4
+{
+    border-bottom: 10px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.button-2
+{
+    color: blue;
+    background-color: darkgoldenrod;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+/*CONTACT*/
+#contact
+{
+    padding:60px 0;
+    text-align: center;
+        
+}
+#contact h3
+{
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 1px solid;
+    padding-bottom: 20px; 
+}
+form
+{
+    margin: 60px 0 26px 0;
+    
+}
+label
+{
+    font-weight:bold;
+    font-size: 26px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+input[type="text"]
+{
+    padding: 11px;
+    font-size: 8px;
+    margin-right: 12px;
+    border: 2px solid ;
+    border-radius: 2px;
+}
+.button
+{
+    color: blue;
+    font-size: 20px;
+    font font-weight: bold;
+    padding: 11px;
+    background-color: crimson;
+    border border-style: none;
+    border-radius: 2px;
+}
+.button-3:hover
+{
+    color: aquamarine;
+    background-color: chartreuse;
+    
+    
+    
+}
